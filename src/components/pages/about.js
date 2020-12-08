@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -38,6 +39,10 @@ const About = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum.
         </p>
+        <div className="mt-3">
+          <Link className="mr-3" to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
       </div>
     </div>
   );
