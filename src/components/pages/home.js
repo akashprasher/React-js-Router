@@ -1,6 +1,6 @@
-import { React }  from 'react';
+import React from 'react';
 
-const home = () => {
+const Home = () => {
     return(
         <div className="container">
             <div className="py-4">
@@ -10,4 +10,4 @@ const home = () => {
     )
 };
 
-export default home;
+export default Home;
