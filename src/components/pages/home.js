@@ -18,9 +18,15 @@ const Home = () => {
           including versions of Lorem Ipsum.
         </p>
       </div>
-      <div className="mt-3">
-        <Link className="mr-3" to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+      <div>
+        <p className="font-weight-bold">Time Stamp: 35:25</p>
+        <p className="font-weight-bold">Date Stamp: 08-12-2020</p>
+      </div>
+      <div className="mt-5 text-center"><p>Made with ❤️ by <a href="https://github.com/akashprasher">Akash Prasher</a></p></div>
+      <div className="mt-4 text-center">
+        <Link className="mr-3" to="/">/home</Link>
+        <Link className="mr-3" to="/about">/about</Link>
+        <Link to="/contact">/contact</Link>
       </div>
     </div>
   );
