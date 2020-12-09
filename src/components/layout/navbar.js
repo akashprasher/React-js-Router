@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink} from 'react-router-dom'; //Link,
-import $ from 'jquery'; 
+// import $ from 'jquery'; 
 
 const Navbar = () => {
   return (

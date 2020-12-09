@@ -38,16 +38,18 @@ const Contact = () => {
               id="exampleCheck1"
             />
             <label className="form-check-label" for="exampleCheck1">
-              Check me out
+              Accept Our Term and Conditions.
             </label>
           </div>
           <button type="submit" className="btn btn-primary">
             Submit
           </button>
         </form>
-        <div className="mt-3">
-          <Link className="mr-3" to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+        <div className="mt-5 text-center"><p>Made with ❤️ by <a href="https://github.com/akashprasher">Akash Prasher</a></p></div>
+        <div className="mt-3 text-center">
+          <Link className="mr-3" to="/">/home</Link>
+          <Link className="mr-3" to="/about">/about</Link>
+          <Link to="/contact">/contact</Link>
         </div>
       </div>
     </div>
