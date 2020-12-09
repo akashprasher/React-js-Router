@@ -4,7 +4,11 @@
     height: 100vh;
     top: 0;
     background-color: #FFF;
-    display: flex;
+    /* display: flex; */
     text-align: center;
     align-items: center;
+}
+
+.tp-m {
+    margin-top: 20%;
 }
