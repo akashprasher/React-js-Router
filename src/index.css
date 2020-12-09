@@ -12,3 +12,14 @@
 .tp-m {
     margin-top: 20%;
 }
+
+.btn-action {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .display-1 {
+        margin-top: 55%;
+        font-size: 3rem !important;
+    }
+  }
