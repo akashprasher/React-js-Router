@@ -13,10 +13,6 @@
     margin-top: 20%;
 }
 
-.btn-action {
-    display: flex;
-}
-
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 0 !important;
@@ -27,5 +23,8 @@
     .display-1 {
         margin-top: 55%;
         font-size: 3rem !important;
+    }
+    .btn-action {
+        display: flex;
     }
   }
