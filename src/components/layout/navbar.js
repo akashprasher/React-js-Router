@@ -37,9 +37,11 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
+            <li className="nav-item">
+              <Link to="/users/add" className="btn btn-outline-light">Add User</Link>
+            </li>
           </ul>
         </div>
-        <Link to="/users/add" className="btn btn-outline-light">Add User</Link>
       </div>
     </nav>
   );

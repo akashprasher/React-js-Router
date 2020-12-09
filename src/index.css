@@ -17,6 +17,12 @@
     display: flex;
 }
 
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+
 @media only screen and (max-width: 600px) {
     .display-1 {
         margin-top: 55%;
