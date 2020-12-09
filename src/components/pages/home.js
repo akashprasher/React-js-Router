@@ -19,7 +19,7 @@ const Home = () => {
       <div className="py-4">
         <h1>Home Page</h1>
         <div className="table-responsive">
-          <table className="table border shadow mt-5">
+          <table className="table border shadow mt-5 text-center">
             <thead className="table-dark">
               <tr>
                 <th scope="col">#</th>
@@ -36,7 +36,7 @@ const Home = () => {
                   <td>{user.name}</td>
                   <td>{user.username}</td>
                   <td>{user.email}</td>
-                  <td className="btn-action">
+                  <td className="btn-action text-center">
                     <Link className="btn btn-primary mr-2">View</Link>
                     <Link className="btn btn-outline-primary mr-2">Edit</Link>
                     <Link className="btn btn-danger">Delete</Link>
@@ -49,7 +49,7 @@ const Home = () => {
       </div>
       <div>
         <p className="font-weight-bold text-center">
-          Time Stamp: 35:25 | Date Stamp: 08-12-2020
+          Time Stamp: 01:13:34 | Date Stamp: 09-12-2020
         </p>
       </div>
       <div className="mt-5 text-center">
