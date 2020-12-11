@@ -30,6 +30,28 @@ const Home = () => {
               </tr>
             </thead>
             <tbody>
+              <tr>
+                <th scope="row">#1</th>
+                <td>Akash Prasher</td>
+                <td>akashprasher</td>
+                <td>akashprasher@gmail.com</td>
+                <td className="btn-action text-center">
+                  <Link className="btn btn-primary mr-2">View</Link>
+                  <Link className="btn btn-outline-primary mr-2">Edit</Link>
+                  <Link className="btn btn-danger">Delete</Link>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">#2</th>
+                <td>Sumit Chahar</td>
+                <td>sumitchahar</td>
+                <td>sumitchahar@gmail.com</td>
+                <td className="btn-action text-center">
+                  <Link className="btn btn-primary mr-2">View</Link>
+                  <Link className="btn btn-outline-primary mr-2">Edit</Link>
+                  <Link className="btn btn-danger">Delete</Link>
+                </td>
+              </tr>
               {users.map((user, index) => (
                 <tr>
                   <th scope="row">{index + 1}</th>
