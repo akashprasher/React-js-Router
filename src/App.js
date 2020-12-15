@@ -9,6 +9,7 @@ import Contact from "./components/pages/contact";
 import Navbar from "./components/layout/navbar";
 import NotFound from './components/pages/not-found';
 import AddUser from "./components/users/AddUser";
+import EditUser from "./components/users/EditUser";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/about" component={About}></Route>
           <Route exact path="/contact" component={Contact}></Route>
           <Route exact path="/users/add" component={AddUser}></Route>
+          <Route exact path="/users/edit/:id" component={EditUser}></Route>
           <Route component={NotFound}></Route>
         </Switch>
       </div>
